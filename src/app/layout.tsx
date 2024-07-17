@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={lato.className}>
         <NavBar />
-        <Suspense fallback={<div>Carregando dados da pagina...</div>}>
+        <Suspense fallback={<div>Carregando pagina...</div>}>
           {children}
         </Suspense>
         <Footer />
