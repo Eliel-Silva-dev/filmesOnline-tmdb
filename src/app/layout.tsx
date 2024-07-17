@@ -8,8 +8,8 @@ import { Suspense } from 'react';
 const lato = Lato({ subsets: ['latin'], weight: ['400', '700', '900'] });
 
 export const metadata: Metadata = {
-  title: 'Cinepolis | Hydrah tecnologia',
-  description: 'page de filmes em cartaz, aqui voce encontra informações sobre todos os filmes lançados!',
+  title: 'Filmes Online | Hydrah tecnologia',
+  description: 'site criado para exibir os filmes mais assistidos',
   keywords:
     'filmes online, filmes em cartaz, filmes de ação, filmes de aventura',
   icons: '/img/favicon.svg',
