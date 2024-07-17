@@ -30,6 +30,7 @@ const SearchMovie = () => {
     <main className={style.main}>
       <section>
         <div className={style.container_search}>
+        {movieSearch.length == 0 && (<h2>Não encontramos o seu filme....</h2>)}
           {movieSearch &&
             movieSearch.map((movie: Ttdmb) => (
               <MovieCard

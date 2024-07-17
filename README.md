@@ -2,13 +2,13 @@
 
 Este projeto tem como objetivo desenvolver uma página de filmes oferecendo informações como quantidade de estrelas, orçamento, receita, duração e descrição. Foi utilizado a API do The Movie Database para extrair os dados da página.
 
-[Visitar site](https://film-flix-two.vercel.app/)
+[Visitar site]()
 
 ### Lista com as funcionalidades:
 
 - [x] Conectar API do TMDB;
 - [x] Requisições com conteudo em PT-BR;
-- [x] FBusca personalizada;
+- [x] Busca personalizada;
 
 ## 🔧 Instalação
 
