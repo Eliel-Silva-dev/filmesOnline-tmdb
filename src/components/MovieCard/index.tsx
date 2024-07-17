@@ -31,8 +31,6 @@ const MovieCard = ({
         alt={title}
       />
 
-      <h2>{title}</h2>
-
       <p>
         <FaStar /> {vote_average}
       </p>
