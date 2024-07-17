@@ -2,7 +2,7 @@
 
 import style from './style.min.module.css';
 
-import { Environment } from '@/environment/Environment';
+import Environment from '@/environment';
 import { FaStar } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ type PropsMovieCard = {
   vote_average: number;
   title: string;
   id_movie: number;
-  showLink: boolean;
+  showLink?: boolean;
 };
 const MovieCard = ({
   poster_path,
