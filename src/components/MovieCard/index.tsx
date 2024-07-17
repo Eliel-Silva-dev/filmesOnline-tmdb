@@ -12,8 +12,10 @@ type PropsMovieCard = {
   poster_path: string;
   vote_average: number;
   title: string;
+  overview?: string;
   id_movie: number;
   showLink?: boolean;
+  vote_count?: number;
 };
 const MovieCard = ({
   poster_path,
