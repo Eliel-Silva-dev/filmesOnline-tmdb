@@ -7,9 +7,10 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --primary_color: #000;
+  --primary_color: #121212;
   --secondary_color: #f7d354;
   --text_color: #fff;
+  --hover: #b8930c;
 }
 body {
   background-color: var(--primary_color);
@@ -21,9 +22,9 @@ a {
   transition: 0.5s;
 }
 a:hover {
-  color: #b8930c;
+  color: var(--hover);
 }
 main {
   height: 100vh;
-  margin-top: 30px;
+  margin-top: 50px;
 }
