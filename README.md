@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo desenvolver uma página de filmes oferecendo informações como quantidade de estrelas, orçamento, receita, duração e descrição. Foi utilizado a API do The Movie Database para extrair os dados da página.
 
-[Visitar site]()
+[Visitar site](https://filmes-online-tmdb.vercel.app/)
 
 ### Lista com as funcionalidades:
 
