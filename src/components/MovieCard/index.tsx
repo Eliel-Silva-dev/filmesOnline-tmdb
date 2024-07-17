@@ -2,11 +2,11 @@
 
 import style from './style.min.module.css';
 
-import Environment from '@/environment';
+import { tmdb_api } from '@/environment';
 import { FaStar } from 'react-icons/fa';
 import Link from 'next/link';
 
-const imagesURL = Environment.API_IMG;
+const imagesURL = tmdb_api.API_IMG_w342;
 
 type PropsMovieCard = {
   poster_path: string;
@@ -24,7 +24,10 @@ const MovieCard = ({
 }: PropsMovieCard) => {
   return (
     <div className={style.movie_card}>
-      <img src={imagesURL + poster_path} alt={title} />
+      <img
+        src={poster_path ? imagesURL + poster_path : 'img/ilustrativa.jpg'}
+        alt={title}
+      />
 
       <h2>{title}</h2>
 

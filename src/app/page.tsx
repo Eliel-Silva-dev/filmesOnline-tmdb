@@ -4,10 +4,9 @@ import style from './page.module.css';
 
 import { useEffect, useState } from 'react';
 import MovieCard from '@/components/MovieCard';
-import {Ttdmb } from '@/environment';
-import Environment from '@/environment';
+import {tmdb_api, Ttdmb } from '@/environment';
 
-const movie_playing_now = Environment.API_NOW_PLAYING;
+const movie_playing_now = tmdb_api.API_NOW_PLAYING;
 
 export default function Home() {
   const [topMovies, setTopMovies] = useState([]);
