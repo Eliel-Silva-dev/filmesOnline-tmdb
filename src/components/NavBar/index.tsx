@@ -1,20 +1,23 @@
+'use client';
+
 import { useState } from 'react';
 import Link from 'next/link';
-import { useRouter, useParams, usePathname } from 'next/navigation';
+//import { useRouter, useParams, usePathname } from 'next/navigation';
 import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi';
 
 import style from './style.min.module.css';
 
 const NavBar = () => {
   const [search, setSearch] = useState('');
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleSubmit = (e: any) => {
     e.preventDefault();
 
     if (!search) return;
 
-    navigate(`/search?q=${search}`, { replace: true });
+    //navigate(`/search?q=${search}`, { replace: true });
     setSearch('');
   };
 
